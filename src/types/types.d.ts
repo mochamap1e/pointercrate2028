@@ -1,13 +1,13 @@
-interface Player {
-    name: string,
-    verifications: List
+interface User {
+    username: string
 }
 
 interface ListLevel {
     name: string,
-    verifier: Player,
-    thumbnail: string
+    publisher: string,
+    videoId: string,
+    verifier: User,
+    victors: User[],
+    tier: number,
+    levelId: number
 }
-
-interface Players extends Array<Player> {}
-interface List extends Array<ListLevel> {}

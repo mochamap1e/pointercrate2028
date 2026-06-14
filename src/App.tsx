@@ -1,13 +1,15 @@
 import { Routes, Route } from "react-router-dom";
 
-import Home from "./pages/Home";
-import List from "./pages/List";
+import { Demonlist } from "./pages/Demonlist";
+import { About } from "./pages/About";
 
-export default function App() {
+import "./global.css";
+
+export function App() {
     return (
         <Routes>
-            <Route path="/" element={<Home/>}/>
-            <Route path="/list" element={<List/>}/>
+            <Route path="/" element={<Demonlist/>}/>
+            <Route path="/about" element={<About/>}/>
         </Routes>
     );
 }

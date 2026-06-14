@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: rgb(30, 30, 30);
+    height: 50px;
+    padding: 40px;
+}
+
+.logo {
+    width: 400px;
+}
+.logo:hover { transform: scale(1.03); }
+.logo:active { transform: scale(0.97); }
+
+.links {
+    display: flex;
+    margin-left: auto;
+    gap: 40px;
+}
+
+.links > a {
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+.links > a:hover { transform: scale(1.07); }
+.links > a:active { transform: scale(0.93); }
+
+.logo, .links > a {
+    transition: 0.1s;
+}
