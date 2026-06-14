@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useNavigate, useParams } from "react-router-dom";
 
 import { Page } from "../components/Page";
 
@@ -9,6 +10,9 @@ import { calculatePointsForUser } from "../data/points";
 import styles from "./Statsviewer.module.css";
 
 export function Statsviewer() {
+    const navigate = useNavigate();
+    const { target } = useParams();
+
     const [targetUser, setTargetUser] = useState<typeof leaderboard[number] | undefined>(undefined);
 
     const leaderboard = users
@@ -30,6 +34,16 @@ export function Statsviewer() {
             ...user,
             placement: index + 1,
         }));
+    
+    useEffect(() => {
+        if (target) {
+            const targetAsUser = leaderboard.find(user => user.username.toLowerCase() === target);
+            if (targetAsUser) {
+                setTargetUser(targetAsUser);
+            }
+            navigate("/statsviewer");
+        }
+    }, []);
 
     return (
         <Page className={styles.page}>
