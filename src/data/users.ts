@@ -7,5 +7,8 @@ export const users: User[] = [
     },
     {
         username: "WyattNT"
+    },
+    {
+        username: "leaderstatz"
     }
 ];

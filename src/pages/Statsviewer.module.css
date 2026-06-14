@@ -1,0 +1,29 @@
+.page {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.list {
+    width: 300px;
+    align-self: flex-start;
+}
+
+.viewer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+}
+
+.list, .viewer {
+    background-color: gray;
+    padding: 20px;
+}

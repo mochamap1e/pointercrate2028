@@ -9,7 +9,7 @@ export function Demonlist() {
     return (
         <Page>
             <div className={styles.list}>
-                {list.map((listLevel, index) => (<Level level={listLevel} key={index} placement={index}/>))}
+                {list.map((listLevel, index) => (<Level level={listLevel} key={index} placement={index+1}/>))}
             </div>
         </Page>
     );

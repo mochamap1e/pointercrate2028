@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Vibrant } from "node-vibrant/browser";
 
+import { calculatePointsForLevel } from "../data/points";
+
 import styles from "./Level.module.css";
 
 export function Level({ level, placement }: { level: ListLevel, placement: number }) {
@@ -9,13 +11,29 @@ export function Level({ level, placement }: { level: ListLevel, placement: numbe
 
     const hasVideo = level.videoId !== "";
     const background = `https://levelthumbs.prevter.me/thumbnail/${level.levelId}/medium`;
-    const thumbnail = hasVideo ? `https://i.ytimg.com/vi/${level.videoId}/hqdefault.jpg` : "/img/placeholder.png";
+    const thumbnail = hasVideo ? `https://i.ytimg.com/vi/${level.videoId}/hqdefault.jpg` : "/img/placeholder.jpg";
 
     useEffect(() => {
-        Vibrant.from(background).getPalette().then((palette) => {
-            if (!palette.Vibrant) return;
-            setBorder(`2px solid ${palette.Vibrant.hex}`);
-        });
+        const storageKey = level.levelId.toString();
+        const cachedBorder = localStorage.getItem(storageKey);
+
+        if (cachedBorder) {
+            setBorder(cachedBorder);
+        } else {
+            Vibrant.from(background).getPalette().then((palette) => {
+                const borderBase = "2px solid";
+                let border;
+
+                if (palette.Vibrant) {
+                    border = `${borderBase} ${palette.Vibrant.hex}`;
+                } else {
+                    border = `${borderBase} white`;
+                };
+                
+                setBorder(border);
+                localStorage.setItem(storageKey, border);
+            });
+        }
     }, []);
 
     return (
@@ -37,13 +55,14 @@ export function Level({ level, placement }: { level: ListLevel, placement: numbe
                         />
                     </a>
                     <div className={styles.details}>
-                        <h1>#{placement+1} - {level.name}</h1>
+                        <h1>#{placement} - {level.name}</h1>
                         <p>Published by {level.publisher}</p>
                         <p>
                             Verified by <Link to={`/statsviewer/${level.verifier.username.toLowerCase()}`}>
                                 {level.verifier.username}
                             </Link>
                         </p>
+                        <p>{calculatePointsForLevel(placement)} points</p>
                     </div>
                 </div>
                 <div className={styles.tier}>
