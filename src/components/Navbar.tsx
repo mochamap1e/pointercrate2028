@@ -15,7 +15,6 @@ export function Navbar() {
             <div className={styles.links}>
                 <NavLink to="/" text="Demonlist"/>
                 <NavLink to="/statsviewer" text="Stats Viewer"/>
-                <NavLink to="/about" text="About"/>
             </div>
         </div>
     );
