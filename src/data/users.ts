@@ -16,5 +16,8 @@ export const users: User[] = [
     },
     {
         username: "rzvs"
+    },
+    {
+        username: "Orcagaming"
     }
 ];
