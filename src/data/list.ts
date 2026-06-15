@@ -578,7 +578,7 @@ export const list: ListLevel[] = [
         publisher: "TriAxis",
         videoId: "",
         verifier: users[1],
-        victors: [users[2]],
+        victors: [users[3]],
         tier: 3,
         levelId: 17235008
     },
