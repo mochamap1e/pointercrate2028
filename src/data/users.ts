@@ -10,5 +10,11 @@ export const users: User[] = [
     },
     {
         username: "leaderstatz"
+    },
+    {
+        username: "anaxdraco"
+    },
+    {
+        username: "rzvs"
     }
 ];
