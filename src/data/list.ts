@@ -391,15 +391,6 @@ export const list: ListLevel[] = [
         levelId: 839175
     },
     {
-        name: "Silent ClubX Rebirth",
-        publisher: "BrainETR",
-        videoId: "",
-        verifier: users[1],
-        victors: [],
-        tier: 7,
-        levelId: 86155700
-    },
-    {
         name: "Ultra violence",
         publisher: "Xender Game",
         videoId: "AKn4plapnNc",
@@ -407,6 +398,15 @@ export const list: ListLevel[] = [
         victors: [],
         tier: 7,
         levelId: 60887211
+    },
+    {
+        name: "Silent ClubX Rebirth",
+        publisher: "BrainETR",
+        videoId: "",
+        verifier: users[1],
+        victors: [],
+        tier: 7,
+        levelId: 86155700
     },
     {
         name: "Fratura",
