@@ -400,6 +400,15 @@ export const list: ListLevel[] = [
         levelId: 86155700
     },
     {
+        name: "Ultra violence",
+        publisher: "Xender Game",
+        videoId: "AKn4plapnNc",
+        verifier: users[0],
+        victors: [],
+        tier: 7,
+        levelId: 60887211
+    },
+    {
         name: "Fratura",
         publisher: "joojmiguel",
         videoId: "",
