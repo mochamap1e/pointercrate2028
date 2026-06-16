@@ -51,10 +51,10 @@ export function Statsviewer() {
             <div className={styles.container}>
                 <div className={styles.list}>
                     {leaderboard.map((user, index) => (
-                        <p
+                        <button
                             key={index}
                             onClick={() => setTargetUser(user)}
-                        >#{user.placement}: {user.username} ({user.points} points)</p>
+                        >#{user.placement}: {user.username} ({user.points} points)</button>
                     ))}
                 </div>
                 {targetUser && (
@@ -62,15 +62,23 @@ export function Statsviewer() {
                         <h1>#{targetUser.placement}: {targetUser.username}</h1>
                         <p>{targetUser.points} points</p>
 
-                        <div>
-                            <h2>Levels verified:</h2>
-                            {targetUser.verifiedLevels.map((level, index) => (<p key={index}>{level.name}</p>))}
-                        </div>
-                        
-                        <div>
-                            <h2>Levels beaten:</h2>
-                            {targetUser.beatenLevels.map((level, index) => (<p key={index}>{level.name}</p>))}
-                        </div>
+                        {targetUser.verifiedLevels.length > 0 && (
+                            <>
+                                <h2>Levels verified:</h2>
+                                <div>
+                                    {targetUser.verifiedLevels.map((level, index) => (<p key={index}>{level.name}</p>))}
+                                </div>
+                            </>
+                        )}
+
+                        {targetUser.beatenLevels.length > 0 && (
+                            <>
+                                <h2>Levels beaten:</h2>
+                                <div>
+                                    {targetUser.beatenLevels.map((level, index) => (<p key={index}>{level.name}</p>))}
+                                </div>
+                            </>
+                        )}
                     </div>
                 )}
             </div>

@@ -9,5 +9,6 @@ interface ListLevel {
     verifier: User,
     victors: User[],
     tier: number,
-    levelId: number
+    levelId: number,
+    difficulty: "extreme" | "insane" | "hard" | "medium" | "easy"
 }

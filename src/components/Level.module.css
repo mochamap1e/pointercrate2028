@@ -19,7 +19,7 @@
     border-radius: 10px;
 }
 
-.level h1, p {
+.level h1 > p {
     text-shadow: 0 0 10px black;
 }
 
@@ -49,20 +49,31 @@
     gap: 15px;
 }
 
-.tier {
+.difficulty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 25px;
+    gap: 25px;
+}
+
+.difficulty > img {
+    height: 100px;
+}
+
+.difficulty > div {
     display: grid;
     align-items: center;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    margin-left: auto;
-    margin-right: 25px;
 }
 
-.tier > * {
+.difficulty > div > * {
     grid-area: 1/1;
 }
 
-.tier > p {
+.difficulty > div > p {
     font-family: "Pusab", "Montserrat", Arial, sans-serif;
     font-size: 60px;
     text-align: center;

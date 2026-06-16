@@ -10,7 +10,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 35,
-        levelId: 59075347
+        levelId: 59075347,
+        difficulty: "extreme"
     },
     {
         name: "The Golden",
@@ -19,7 +20,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 35,
-        levelId: 60978746
+        levelId: 60978746,
+        difficulty: "extreme"
     },
     {
         name: "Oblivion",
@@ -28,7 +30,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 35,
-        levelId: 71025973
+        levelId: 71025973,
+        difficulty: "extreme"
     },
     {
         name: "shimmer",
@@ -37,7 +40,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 33,
-        levelId: 94156085
+        levelId: 94156085,
+        difficulty: "extreme"
     },
     {
         name: "Bloodlust",
@@ -46,7 +50,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 32,
-        levelId: 42584142
+        levelId: 42584142,
+        difficulty: "extreme"
     },
     {
         name: "Loochiverse",
@@ -55,7 +60,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 29,
-        levelId: 81373023
+        levelId: 81373023,
+        difficulty: "extreme"
     },
     {
         name: "Athanatos",
@@ -64,7 +70,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 26,
-        levelId: 26133601
+        levelId: 26133601,
+        difficulty: "extreme"
     },
     {
         name: "Bloodbath",
@@ -73,7 +80,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 24,
-        levelId: 10565740
+        levelId: 10565740,
+        difficulty: "extreme"
     },
     {
         name: "aftermath",
@@ -82,7 +90,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 23,
-        levelId: 25610878
+        levelId: 25610878,
+        difficulty: "extreme"
     },
     {
         name: "HyperSonic",
@@ -91,7 +100,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 21,
-        levelId: 30219145
+        levelId: 30219145,
+        difficulty: "extreme"
     },
     {
         name: "Cataclysm",
@@ -100,7 +110,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 21,
-        levelId: 3979721
+        levelId: 3979721,
+        difficulty: "extreme"
     },
 
     // ---------- INSANE DEMONS ---------- //
@@ -112,7 +123,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 20,
-        levelId: 814678
+        levelId: 814678,
+        difficulty: "insane"
     },
     {
         name: "Acropolis",
@@ -121,7 +133,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 17,
-        levelId: 5155022
+        levelId: 5155022,
+        difficulty: "insane"
     },
     {
         name: "The Four Elements",
@@ -130,7 +143,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 16,
-        levelId: 9653767
+        levelId: 9653767,
+        difficulty: "insane"
     },
     {
         name: "Terraphobia",
@@ -139,7 +153,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 16,
-        levelId: 110711884
+        levelId: 110711884,
+        difficulty: "insane"
     },
     {
         name: "Rupture",
@@ -148,7 +163,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 16,
-        levelId: 10505306
+        levelId: 10505306,
+        difficulty: "insane"
     },
     {
         name: "EXG",
@@ -157,7 +173,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 16,
-        levelId: 76866307
+        levelId: 76866307,
+        difficulty: "insane"
     },
     {
         name: "Magma Bound",
@@ -166,7 +183,8 @@ export const list: ListLevel[] = [
         verifier: users[0],
         victors: [users[1]],
         tier: 16,
-        levelId: 56568010
+        levelId: 56568010,
+        difficulty: "insane"
     },
     {
         name: "gooberverse",
@@ -175,7 +193,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 16,
-        levelId: 86925233
+        levelId: 86925233,
+        difficulty: "insane"
     },
     {
         name: "Interstellar Infant",
@@ -184,7 +203,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 16,
-        levelId: 65496280
+        levelId: 65496280,
+        difficulty: "insane"
     },
     {
         name: "Windy Landscape",
@@ -193,7 +213,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 16,
-        levelId: 4957691
+        levelId: 4957691,
+        difficulty: "insane"
     },
     {
         name: "CraZy II",
@@ -202,7 +223,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 15,
-        levelId: 47620786
+        levelId: 47620786,
+        difficulty: "insane"
     },
     {
         name: "Horntail Cave",
@@ -211,7 +233,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 15,
-        levelId: 7005127
+        levelId: 7005127,
+        difficulty: "insane"
     },
 
     // ---------- HARD DEMONS ---------- //
@@ -223,7 +246,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 15,
-        levelId: 36667269
+        levelId: 36667269,
+        difficulty: "hard"
     },
     {
         name: "Future Funk",
@@ -232,7 +256,8 @@ export const list: ListLevel[] = [
         verifier: users[0],
         victors: [],
         tier: 13,
-        levelId: 44062068
+        levelId: 44062068,
+        difficulty: "hard"
     },
     {
         name: "CraZy",
@@ -241,7 +266,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 13,
-        levelId: 40945673
+        levelId: 40945673,
+        difficulty: "hard"
     },
     {
         name: "Dance Massacre",
@@ -250,7 +276,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 13,
-        levelId: 11607707
+        levelId: 11607707,
+        difficulty: "hard"
     },
     {
         name: "Charcoal",
@@ -259,7 +286,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 13,
-        levelId: 94610603
+        levelId: 94610603,
+        difficulty: "hard"
     },
     {
         name: "U L T R A W I D E",
@@ -268,7 +296,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 12,
-        levelId: 84815242
+        levelId: 84815242,
+        difficulty: "hard"
     },
     {
         name: "Double Dash",
@@ -277,7 +306,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 12,
-        levelId: 59315849
+        levelId: 59315849,
+        difficulty: "hard"
     },
     {
         name: "scissors",
@@ -286,7 +316,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 12,
-        levelId: 68923366
+        levelId: 68923366,
+        difficulty: "hard"
     },
     {
         name: "in rainbows",
@@ -295,7 +326,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 12,
-        levelId: 60084691
+        levelId: 60084691,
+        difficulty: "hard"
     },
     {
         name: "ThermoDynamix",
@@ -304,7 +336,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 12,
-        levelId: 38445559
+        levelId: 38445559,
+        difficulty: "hard"
     },
     {
         name: "Nine Circles",
@@ -313,7 +346,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [users[0]],
         tier: 11,
-        levelId: 4284013
+        levelId: 4284013,
+        difficulty: "hard"
     },
     {
         name: "white women",
@@ -322,7 +356,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 11,
-        levelId: 63075323
+        levelId: 63075323,
+        difficulty: "hard"
     },
     {
         name: "Grey Trap",
@@ -331,7 +366,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 10,
-        levelId: 7887341
+        levelId: 7887341,
+        difficulty: "hard"
     },
 
     // ---------- MEDIUM DEMONS ---------- //
@@ -343,7 +379,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 9,
-        levelId: 726062
+        levelId: 726062,
+        difficulty: "medium"
     },
     {
         name: "Nantendo",
@@ -352,7 +389,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 8,
-        levelId: 58270823
+        levelId: 58270823,
+        difficulty: "medium"
     },
     {
         name: "Scarlet Smog",
@@ -361,7 +399,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 8,
-        levelId: 67113181
+        levelId: 67113181,
+        difficulty: "medium"
     },
     {
         name: "WELL RESTED",
@@ -370,7 +409,8 @@ export const list: ListLevel[] = [
         verifier: users[0],
         victors: [],
         tier: 7,
-        levelId: 83444471
+        levelId: 83444471,
+        difficulty: "medium"
     },
     {
         name: "Mechanical Showdown",
@@ -379,7 +419,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 7,
-        levelId: 27786218
+        levelId: 27786218,
+        difficulty: "medium"
     },
     {
         name: "Electrodynamix v2",
@@ -388,7 +429,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 7,
-        levelId: 839175
+        levelId: 839175,
+        difficulty: "medium"
     },
     {
         name: "Ultra violence",
@@ -397,7 +439,8 @@ export const list: ListLevel[] = [
         verifier: users[0],
         victors: [],
         tier: 7,
-        levelId: 60887211
+        levelId: 60887211,
+        difficulty: "medium"
     },
     {
         name: "Silent ClubX Rebirth",
@@ -406,7 +449,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 7,
-        levelId: 86155700
+        levelId: 86155700,
+        difficulty: "medium"
     },
     {
         name: "Fratura",
@@ -415,7 +459,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 7,
-        levelId: 78079575
+        levelId: 78079575,
+        difficulty: "medium"
     },
     {
         name: "Mass Surveillance",
@@ -424,7 +469,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 7,
-        levelId: 102824936
+        levelId: 102824936,
+        difficulty: "medium"
     },
     {
         name: "red dart",
@@ -433,7 +479,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 7,
-        levelId: 77614559
+        levelId: 77614559,
+        difficulty: "medium"
     },
     {
         name: "COLOR CRUSHER",
@@ -442,7 +489,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 7,
-        levelId: 77492867
+        levelId: 77492867,
+        difficulty: "medium"
     },
     {
         name: "Skeletal Shenanigans",
@@ -451,7 +499,8 @@ export const list: ListLevel[] = [
         verifier: users[2],
         victors: [users[1]],
         tier: 7,
-        levelId: 118509879
+        levelId: 118509879,
+        difficulty: "medium"
     },
     {
         name: "Sakupen Egg",
@@ -460,7 +509,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 7,
-        levelId: 58002670
+        levelId: 58002670,
+        difficulty: "medium"
     },
     {
         name: "BRAINPOWER",
@@ -469,7 +519,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 6,
-        levelId: 79238456
+        levelId: 79238456,
+        difficulty: "medium"
     },
     {
         name: "B",
@@ -478,7 +529,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [users[0], users[2], users[3]],
         tier: 6,
-        levelId: 34085027
+        levelId: 34085027,
+        difficulty: "medium"
     },
     {
         name: "Ebb",
@@ -487,7 +539,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 6,
-        levelId: 24380303
+        levelId: 24380303,
+        difficulty: "medium"
     },
     {
         name: "DEEP BLUE SEA",
@@ -496,7 +549,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 5,
-        levelId: 71114971
+        levelId: 71114971,
+        difficulty: "medium"
     },
     {
         name: "hell and heaven",
@@ -505,7 +559,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 5,
-        levelId: 74449
+        levelId: 74449,
+        difficulty: "medium"
     },
 
     // ---------- EASY DEMONS ---------- //
@@ -517,7 +572,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 5,
-        levelId: 106696944
+        levelId: 106696944,
+        difficulty: "easy"
     },
     {
         name: "DeCode",
@@ -526,7 +582,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 4,
-        levelId: 2997354
+        levelId: 2997354,
+        difficulty: "easy"
     },
     {
         name: "Death Moon",
@@ -535,7 +592,8 @@ export const list: ListLevel[] = [
         verifier: users[0],
         victors: [users[6]],
         tier: 4,
-        levelId: 8660411
+        levelId: 8660411,
+        difficulty: "easy"
     },
     {
         name: "invisible clubstep",
@@ -544,7 +602,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 3,
-        levelId: 1347537
+        levelId: 1347537,
+        difficulty: "easy"
     },
     {
         name: "Problematic",
@@ -553,7 +612,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 3,
-        levelId: 7116121
+        levelId: 7116121,
+        difficulty: "easy"
     },
     {
         name: "Tabasco",
@@ -562,7 +622,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 3,
-        levelId: 75603568
+        levelId: 75603568,
+        difficulty: "easy"
     },
     {
         name: "Chromatique",
@@ -571,7 +632,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 3,
-        levelId: 105383537
+        levelId: 105383537,
+        difficulty: "easy"
     },
     {
         name: "Space Circles",
@@ -580,7 +642,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 3,
-        levelId: 9864147
+        levelId: 9864147,
+        difficulty: "easy"
     },
     {
         name: "X",
@@ -589,7 +652,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [users[3]],
         tier: 3,
-        levelId: 17235008
+        levelId: 17235008,
+        difficulty: "easy"
     },
     {
         name: "Virtualization",
@@ -598,7 +662,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 3,
-        levelId: 76799716
+        levelId: 76799716,
+        difficulty: "easy"
     },
     {
         name: "NTTE",
@@ -607,7 +672,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 3,
-        levelId: 103574402
+        levelId: 103574402,
+        difficulty: "easy"
     },
     {
         name: "Crescendo",
@@ -616,7 +682,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 2,
-        levelId: 186646
+        levelId: 186646,
+        difficulty: "easy"
     },
     {
         name: "Speed Racer",
@@ -625,7 +692,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [users[2], users[3], users[5]],
         tier: 2,
-        levelId: 3543219
+        levelId: 3543219,
+        difficulty: "easy"
     },
     {
         name: "Lights And Thunder",
@@ -634,7 +702,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 2,
-        levelId: 848722
+        levelId: 848722,
+        difficulty: "easy"
     },
     {
         name: "Ratio Circles",
@@ -643,7 +712,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 2,
-        levelId: 77132030
+        levelId: 77132030,
+        difficulty: "easy"
     },
     {
         name: "Electroman Adven v2",
@@ -652,7 +722,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 2,
-        levelId: 428765
+        levelId: 428765,
+        difficulty: "easy"
     },
     {
         name: "Speed of Light",
@@ -661,7 +732,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 2,
-        levelId: 5098465
+        levelId: 5098465,
+        difficulty: "easy"
     },
     {
         name: "Xstep v2",
@@ -670,7 +742,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [users[3]],
         tier: 2,
-        levelId: 341613
+        levelId: 341613,
+        difficulty: "easy"
     },
     {
         name: "infinite circles",
@@ -679,7 +752,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 2,
-        levelId: 13037894
+        levelId: 13037894,
+        difficulty: "easy"
     },
     {
         name: "JUMPGRIND3R",
@@ -688,7 +762,8 @@ export const list: ListLevel[] = [
         verifier: users[0],
         victors: [],
         tier: 2,
-        levelId: 88718188
+        levelId: 88718188,
+        difficulty: "easy"
     },
     {
         name: "weird",
@@ -697,7 +772,8 @@ export const list: ListLevel[] = [
         verifier: users[4],
         victors: [],
         tier: 2,
-        levelId: 76564776
+        levelId: 76564776,
+        difficulty: "easy"
     },
     {
         name: "Ultra Paracosm",
@@ -706,7 +782,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 2,
-        levelId: 11588490
+        levelId: 11588490,
+        difficulty: "easy"
     },
     {
         name: "MAYMORY",
@@ -715,7 +792,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 2,
-        levelId: 80433444
+        levelId: 80433444,
+        difficulty: "easy"
     },
     {
         name: "iSpyWithMyLittleEye",
@@ -724,7 +802,8 @@ export const list: ListLevel[] = [
         verifier: users[0],
         victors: [users[2], users[3], users[4], users[6]],
         tier: 2,
-        levelId: 89886591
+        levelId: 89886591,
+        difficulty: "easy"
     },
     {
         name: "DeaDrop",
@@ -733,7 +812,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 2,
-        levelId: 56764573
+        levelId: 56764573,
+        difficulty: "easy"
     },
     {
         name: "Tabby",
@@ -742,7 +822,8 @@ export const list: ListLevel[] = [
         verifier: users[3],
         victors: [],
         tier: 1,
-        levelId: 27478528
+        levelId: 27478528,
+        difficulty: "easy"
     },
     {
         name: "STARPUNK",
@@ -751,7 +832,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 1,
-        levelId: 63087691
+        levelId: 63087691,
+        difficulty: "easy"
     },
     {
         name: "iS",
@@ -760,7 +842,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 1,
-        levelId: 65765662
+        levelId: 65765662,
+        difficulty: "easy"
     },
     {
         name: "ABCDEFGHIJKLMNOPQRS",
@@ -769,7 +852,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [],
         tier: 1,
-        levelId: 45932196
+        levelId: 45932196,
+        difficulty: "easy"
     },
     {
         name: "Shiver",
@@ -778,7 +862,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [users[2], users[3], users[6]],
         tier: 1,
-        levelId: 56210242
+        levelId: 56210242,
+        difficulty: "easy"
     },
     {
         name: "What is it",
@@ -787,7 +872,8 @@ export const list: ListLevel[] = [
         verifier: users[6],
         victors: [],
         tier: 1,
-        levelId: 61348317
+        levelId: 61348317,
+        difficulty: "easy"
     },
     {
         name: "Platinum Adventure",
@@ -796,7 +882,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [users[3], users[5]],
         tier: 1,
-        levelId: 5904109
+        levelId: 5904109,
+        difficulty: "easy"
     },
     {
         name: "THE LIGHTNING ROAD",
@@ -805,7 +892,8 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [users[3]],
         tier: 1,
-        levelId: 55520
+        levelId: 55520,
+        difficulty: "easy"
     },
     {
         name: "The Nightmare",
@@ -814,6 +902,7 @@ export const list: ListLevel[] = [
         verifier: users[1],
         victors: [users[0], users[3], users[4], users[5], users[6]],
         tier: 1,
-        levelId: 13519
+        levelId: 13519,
+        difficulty: "easy"
     },
 ];
