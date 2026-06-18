@@ -264,7 +264,7 @@ export const list: ListLevel[] = [
         publisher: "DavJT",
         videoId: "",
         verifier: users[1],
-        victors: [],
+        victors: [users[2]],
         tier: 13,
         levelId: 40945673,
         difficulty: "hard"
