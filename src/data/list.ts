@@ -86,7 +86,7 @@ export const list: ListLevel[] = [
     {
         name: "aftermath",
         publisher: "IIExenityII",
-        videoId: "",
+        videoId: "wnuzmtxOCJU",
         verifier: users[1],
         victors: [],
         tier: 23,
@@ -96,7 +96,7 @@ export const list: ListLevel[] = [
     {
         name: "HyperSonic",
         publisher: "ViPriN",
-        videoId: "",
+        videoId: "dhQmwn1OGJs",
         verifier: users[1],
         victors: [],
         tier: 21,
