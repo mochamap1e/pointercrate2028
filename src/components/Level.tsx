@@ -79,6 +79,12 @@ export function Level({ level, placement }: { level: ListLevel, placement: numbe
                         <img className={styles.tierBottom} src="/img/tier/bottom.png" draggable={false}/>
                         <img className={styles.tierTop} src="/img/tier/top.png" draggable={false}/>
                         <p>{level.tier}</p>
+                        <a
+                            className={styles.cover}
+                            title={`GDDL Tier ${level.tier}`}
+                            href={`https://gdladder.com/level/${level.levelId}`}
+                            target="_blank"
+                        ></a>
                     </div>
                 </div>
             </div>

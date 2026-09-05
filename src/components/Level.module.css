@@ -84,3 +84,9 @@
 .tierBase { z-index: 1; }
 .tierBottom { z-index: 2; opacity: 0.4; }
 .tierTop { z-index: 3; opacity: 0.1; }
+
+.cover {
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
