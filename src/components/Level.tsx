@@ -13,7 +13,7 @@ export function Level({ level, placement }: { level: ListLevel, placement: numbe
 
     const hasVideo = level.videoId !== "";
     const background = `https://levelthumbs.prevter.me/thumbnail/${level.levelId}/medium`;
-    const thumbnail = hasVideo ? `https://i.ytimg.com/vi/${level.videoId}/hqdefault.jpg` : "/img/placeholder.jpg";
+    const thumbnail = hasVideo ? `https://i.ytimg.com/vi/${level.videoId}/hqdefault.jpg` : "/img/placeholder.png";
 
     useEffect(() => {
         if (cachedColor) {
